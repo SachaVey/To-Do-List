@@ -1,0 +1,67 @@
+.page-header {
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 56px;
+    line-height: 56px;
+    border-bottom: 1px solid #d3d3d3;
+    vertical-align: middle;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    box-shadow: 0px 0px 2px; }
+.page-content {
+    margin: 0px;
+    background-color: whitesmoke; 
+    margin-top: 57px;
+    min-height: 88vh; }
+.page-content-grid {
+    padding: 0px;
+    background-color: #fff;
+    padding-bottom: 20px; }
+.list-input-container {
+    padding: 25px; }
+.list-item-input, .list-item-button {
+    border-radius: 0px; }
+.list-container {
+    padding: 0px 20px; }
+.empty-list{
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8em; }
+.item-list-container {
+    padding: 0px;
+    margin: 0; }
+.list-title {
+    font-family: Courgette;
+    font-size: 1.2em;
+    padding: 10px 0px;
+    border-bottom: 1px solid #eee; }
+.item-list-container .item-list {
+    list-style-type: none;
+    position: relative;
+    padding: 10px 35px 10px 35px;
+    border-bottom: 1px solid #eee;
+    line-height: 20px; 
+    word-wrap: break-word; }
+.item-list-container .item-check-box {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 35px;
+    text-align: center;
+    margin-top: -10px; }
+.item-list-container .remove-icon {
+    right: 0;
+    font-size: 1.1em;
+    position: absolute;
+    top: 50%;
+    width: 45px;
+    text-align: center;
+    margin-top: -10px;
+    color: #adadad;
+    cursor: pointer; }
+.completed-item-list { 
+    color: rgba(0,0,0,.54);
+    text-decoration: line-through; }
