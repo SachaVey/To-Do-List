@@ -16,7 +16,7 @@
     <!-- List -->
     <div class="list-container">
       <div class="list-title">
-        List item
+        List item<span *ngIf="list.length > 1" >s</span>
       </div>
       <div *ngIf="!list.length"  class="empty-list">Add your list item.</div>
       <ul class="item-list-container" *ngIf="list.length" >
@@ -37,7 +37,7 @@
         </li>
       </ul>
       <div class="list-title" *ngIf="completedList.length">
-        {{completedList.length}} Completed item
+        {{completedList.length}} Completed item<span *ngIf="completedList.length > 1" >s</span>
       </div>
       <ul class="item-list-container" *ngIf="completedList.length" >
         <li class="item-list" *ngFor="let item of completedList; let i = index">
