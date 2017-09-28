@@ -23,7 +23,8 @@
 .list-input-container {
     padding: 25px; }
 .list-item-input, .list-item-button {
-    border-radius: 0px; }
+    border-radius: 0px;
+    font-family: 'Raleway', sans-serif; }
 .list-container {
     padding: 0px 20px; }
 .empty-list{
